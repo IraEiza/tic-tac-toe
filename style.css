@@ -1,0 +1,30 @@
+table {
+  background-color: blue;
+  margin: 0 auto;
+  border-color: yellow;
+}
+
+td {
+  width: 100px;
+  height: 100px;
+  color: yellow;
+  text-align: center;
+  font-size: 80px;
+}
+
+p, h1 {
+  text-align: center;
+}
+
+button {
+  display: block;
+  margin: 15px auto;
+}
+
+td:not(.selected):hover {
+  background-color: pink;
+}
+
+.win {
+  background-color: green;
+}
