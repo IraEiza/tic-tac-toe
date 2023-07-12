@@ -21,10 +21,15 @@ button {
   margin: 15px auto;
 }
 
+/* Se pondrán rosa aquellas celdas que no estén seleccionadas (que no tengan X ni O) cuando pasemos el ratón por encima (hover) */
 td:not(.selected):hover {
   background-color: pink;
 }
-
+/* El tablero toma el color verde cuando alguien gane */
 .win {
   background-color: green;
+}
+/* El tablero toma el color rojo cuando haya empate */
+.loose {
+  background-color: rgb(228, 16, 73);
 }
